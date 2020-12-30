@@ -16,7 +16,7 @@
 }
 body {
     background: linear-gradient(rgba(0,0,0, 1),rgba(0,0,0, 0.75)100%) , url("/assets/pexels-maurício-mascaro-376533.jpg");
-    background-size: 75%;
+    background-size: 1280px 720px;
 }
 h1 {
     font-size: 70px;
@@ -28,20 +28,22 @@ p {
 }
 .inputElement {
     margin: 10px 0;
+    width: 325px;
+    height: 55px;
     border: none;
     border-radius: 20px;
     color: gray;
     background-color: var(--Cinza);
     font-size: 20px;
     font-weight: 600;
-    padding: 10px 70px;
 }
 .btnElement {
     border: none;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 900;
-    padding: 10px 100px;
+    width: 325px;
+    height: 55px;
     background-color: var(--Verde);
     color: black;
 }

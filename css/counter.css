@@ -1,0 +1,66 @@
+:root {
+    --Verde: #21EB00;
+    --Cinza: #191A18;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+body {
+    background: linear-gradient(rgba(0,0,0, 1),rgba(0,0,0, 0.75)100%) , url("/assets/pexels-maurício-mascaro-376533.jpg");
+    background-size: 1280px 720px;
+}
+
+
+.top-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 50px;
+}
+.top-page h1 {
+    font-size: 40px;
+    color: var(--Verde);
+}
+.top-page button {
+    margin-top: 12px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: var(--Verde);
+    color: black;
+    border: none;
+    border-radius: 20px;
+}
+
+.rest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rest h1 {
+    color: var(--Cinza);
+    font-size: 80px;
+}
+.timeLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.timeLeft div {
+    margin: 15px 60px 0px 60px;
+}
+.timeLeft h2 {
+    color: white;
+    font-size: 125px;
+}
+.timeLeft p {
+    text-align: center;
+    color: var(--Verde);
+    font-size: 35px;
+    font-weight: 800;
+}
